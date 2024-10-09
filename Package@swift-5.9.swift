@@ -21,7 +21,7 @@ let package = Package(
     dependencies: [
         // LK-Prefixed Dynamic WebRTC XCFramework
         //.package(url: "https://github.com/livekit/webrtc-xcframework.git", from: "125.6422.9"),
-        .package(url: "https://github.com/webcpu/webrtc-xcframework.git", from: "125.6422.14"),
+        .package(url: "https://github.com/webcpu/webrtc-xcframework.git", from: "125.6422.16"),
         .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.26.0"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.5.4"),
         // Only used for DocC generation
